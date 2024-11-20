@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sample.assertions.VerifyResponseBodyTest">
+      <class name="ninza.hrm.api.employetest.CheckingDbInDatabaseTest">
         <methods>
-          <include name="verifyResponseBody"/>
+          <include name="createProjectCheckDB"/>
         </methods>
-      </class> <!-- com.sample.assertions.VerifyResponseBodyTest -->
+      </class> <!-- ninza.hrm.api.employetest.CheckingDbInDatabaseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
